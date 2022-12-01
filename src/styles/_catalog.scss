@@ -1,5 +1,6 @@
 .catalog {
   display: grid;
+  justify-content: center;
 
   @media (min-width: 1024px) {
     grid-template-columns: repeat(4, 200px);
